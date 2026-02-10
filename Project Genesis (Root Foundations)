@@ -1,0 +1,36 @@
+You are initializing a new software repository.
+
+Your task is to create the non-code cognitive contract for this project.
+Do NOT generate any source code or folders.
+
+Create the following root-level files only:
+- README.md
+- ARCHITECTURE.md
+- AGENTS.md
+- CONVENTIONS.md
+- DECISIONS.md
+- PROGRESS.md
+
+Purpose of each file:
+- README.md: High-level purpose, audience, and scope (what this is and is not)
+- ARCHITECTURE.md: Mental model, major boundaries, and invariants (no implementation)
+- AGENTS.md: Explicit rules for AI agents and contributors (what must never be done)
+- CONVENTIONS.md: Naming, structure, and pattern expectations
+- DECISIONS.md: Rationale for early constraints and tradeoffs
+- PROGRESS.md: Current status, known unknowns, and next validation steps
+
+Rules:
+- Be concise but explicit
+- Prefer constraints over examples
+- State non-goals clearly
+- Avoid speculative features
+- Treat these documents as authoritative truth
+
+Before writing, ask me clarifying questions about:
+- Project purpose
+- Target users
+- Technical domain
+- Risk tolerance (speed vs correctness)
+- Expected AI involvement level
+
+Output all files in full, separated clearly.
